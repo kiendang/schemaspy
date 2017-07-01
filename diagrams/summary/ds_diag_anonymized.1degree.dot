@@ -1,0 +1,46 @@
+// dot 2.40.1 on Mac OS X 10.11.6
+// SchemaSpy rev 590
+digraph "ds_diag_anonymized" {
+  graph [
+    rankdir="RL"
+    bgcolor="#f7f7f7"
+    nodesep="0.18"
+    ranksep="0.46"
+    fontname="Helvetica"
+    fontsize="11"
+  ];
+  node [
+    fontname="Helvetica"
+    fontsize="11"
+    shape="plaintext"
+  ];
+  edge [
+    arrowsize="0.8"
+  ];
+  "ds_diag_anonymized" [
+    label=<
+    <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" BGCOLOR="#ffffff">
+      <TR><TD COLSPAN="3" BGCOLOR="#9bab96" ALIGN="CENTER">ds_diag_anonymized</TD></TR>
+      <TR><TD PORT="index" COLSPAN="3" BGCOLOR="#f4f7da" ALIGN="LEFT">index</TD></TR>
+      <TR><TD PORT="CaseIdentificationNumber" COLSPAN="3" ALIGN="LEFT">CaseIdentificationNumber</TD></TR>
+      <TR><TD PORT="AdmitDateTime" COLSPAN="3" ALIGN="LEFT">AdmitDateTime</TD></TR>
+      <TR><TD PORT="ActualDischargeDateTime" COLSPAN="3" ALIGN="LEFT">ActualDischargeDateTime</TD></TR>
+      <TR><TD PORT="EHIDSStatusCode" COLSPAN="3" ALIGN="LEFT">EHIDSStatusCode</TD></TR>
+      <TR><TD PORT="EHIDSStatusDescription" COLSPAN="3" ALIGN="LEFT">EHIDSStatusDescription</TD></TR>
+      <TR><TD PORT="CompletedDate" COLSPAN="3" ALIGN="LEFT">CompletedDate</TD></TR>
+      <TR><TD PORT="DiagnosisStatusDescription" COLSPAN="3" ALIGN="LEFT">DiagnosisStatusDescription</TD></TR>
+      <TR><TD PORT="DiagnosisCatalogCode" COLSPAN="3" ALIGN="LEFT">DiagnosisCatalogCode</TD></TR>
+      <TR><TD PORT="DiagnosisCatalogDescription" COLSPAN="3" ALIGN="LEFT">DiagnosisCatalogDescription</TD></TR>
+      <TR><TD PORT="DiagnosisCode" COLSPAN="3" ALIGN="LEFT">DiagnosisCode</TD></TR>
+      <TR><TD PORT="DiagnosisDescription" COLSPAN="3" ALIGN="LEFT">DiagnosisDescription</TD></TR>
+      <TR><TD PORT="DRGDiagnosisCode" COLSPAN="3" ALIGN="LEFT">DRGDiagnosisCode</TD></TR>
+      <TR><TD PORT="DRGDiagnosisCodeDescription" COLSPAN="3" ALIGN="LEFT">DRGDiagnosisCodeDescription</TD></TR>
+      <TR><TD PORT="DiagnosisTypeCode" COLSPAN="3" ALIGN="LEFT">DiagnosisTypeCode</TD></TR>
+      <TR><TD PORT="DiagnosisTypeDescription" COLSPAN="3" ALIGN="LEFT">DiagnosisTypeDescription</TD></TR>
+      <TR><TD PORT="DiagnosisComments" COLSPAN="3" ALIGN="LEFT">DiagnosisComments</TD></TR>
+      <TR><TD ALIGN="LEFT" BGCOLOR="#f7f7f7">  </TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">363,604 rows</TD><TD ALIGN="RIGHT" BGCOLOR="#f7f7f7">  </TD></TR>
+    </TABLE>>
+    URL="tables/ds_diag_anonymized.html"
+    tooltip="ds_diag_anonymized"
+  ];
+}
